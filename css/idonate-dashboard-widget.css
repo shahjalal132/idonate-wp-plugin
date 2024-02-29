@@ -1,0 +1,161 @@
+.idonate-dpdw-modal {
+	position: fixed;
+	display: none;
+	background-color: #79797991;
+    overflow-x: hidden;
+	z-index: 99999;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+.modal-content {
+	background-color: #fff;
+	max-width: 380px;
+	margin: 0 auto;
+	padding: 15px;
+}
+.panding-list li {
+    display: block;
+    background-color: #e0f3f8;
+    padding: 8px;
+    color: #222;
+    font-size: 14px;
+    font-weight: bold;
+	height: 25px;
+	border-radius: 2px;
+}
+.panding-list li > .btn {
+    float: right;
+    background-color: #af111c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+	border-radius: 2px;
+	padding: 4px 6px;
+	transition: all 0.5s ease 0s;
+}
+.panding-list li .btn:hover {
+    background-color: #222;
+    color: #fff;
+
+}
+.panding-list-heading{
+	font-size: 16px !important;
+    font-weight: bold !important;
+    text-align: center;
+}
+.modal-header .close {
+	color: #ff0000;
+    background-color: #fff;
+    border: 1px solid #757575;
+    box-shadow: 0px 1px 2px 1px #eee;
+    font-size: 20px;
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    line-height: 0;
+    cursor: pointer;
+}
+.modal-content {
+	margin-top: 33px;
+}
+.modal-body {
+	color: #222;
+}
+.donor-img img {
+	width: 100%;
+    height: auto;
+}
+/**
+ *
+ * 
+ *
+ */
+ .idonate-dpdw-modal .modal-header {
+	text-align: right;
+ }
+ .idonate-dpdw-modal table {
+    width: 100%;
+ }
+ .idonate-dpdw-modal table tr {
+    padding: 7px;
+    display: block;
+    border-bottom: 1px solid #eee;
+	overflow: hidden;
+ }
+ .idonate-dpdw-modal table tr td.tbllabel.danger,
+ .idonate-dpdw-modal table tr td.tbllabel.info  {
+	float: left;
+ }
+ .idonate-dpdw-modal table tr td.danger,
+ .idonate-dpdw-modal table tr td.info  {
+	float: right;
+	font-weight: 500;
+ }
+ .idonate-dpdw-modal .modal-footer{
+	text-align: center;
+	margin-top: 40px;
+ }
+ .idonate-dpdw-modal .modal-footer .btn-default{
+	border: none;
+	background-color: #146d14;
+	cursor: pointer;
+	color: #fff;
+	padding: 5px 16px;
+    border-radius: 2px;
+ }
+  .idonate-dpdw-modal .modal-body {
+    margin-top: 25px;
+}
+ .idonate-dpdw-modal .modal-footer .btn-default.delete{
+	background-color: #b34545;
+ }
+ .idonate-dpdw-modal .modal-footer .btn-default.delete:hover{
+	background-color: #222;
+ }
+ .idonate-dpdw-modal .address strong {
+	float: left;
+ }
+ .idonate-dpdw-modal .address p {
+    text-align: right;
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    padding: 8px 0px;
+ }
+.idonate-dpdw-modal .donor-img{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid #eee;
+    padding: 4px;
+    height: auto;
+	margin-bottom: 25px;
+}
+.idonate-dpdw-modal .top-info {
+	text-align: center;
+    margin-top: 25px;
+    border-bottom: 1px solid #af111c;
+}
+.idonate-dpdw-modal .top-info h4 {
+	font-weight: 500 !important;
+}
+
+/**
+ * Donotr statistics css  
+ */
+
+
+.statistics-wrap ul li {
+    background: #eee;
+    padding: 14px 12px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #af111c;
+}
+.statistics-wrap ul li .dashicons {
+    font-size: 28px;
+    color: #af111c;
+}
+.statistics-wrap ul li .right {
+    float: right;
+}

@@ -1,0 +1,11 @@
+.field-row {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 14px;
+	background-color: #f5f6f9;
+	padding: 10px;
+}
+.field-col {
+	width: 50%;
+	float: left;
+}

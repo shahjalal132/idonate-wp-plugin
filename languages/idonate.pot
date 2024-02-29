@@ -1,0 +1,195 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-13 18:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: idonate.php:22
+msgid "You should not access this file directly.!"
+msgstr ""
+
+#: admin/admin.php:27
+msgid "IDonate Settings Page"
+msgstr ""
+
+#: admin/admin.php:28
+msgid "IDonate Settings"
+msgstr ""
+
+#: admin/admin.php:38 admin/admin.php:39 admin/admin.php:64
+#: inc/widget-blood-requiest.php:112
+msgid "Blood Request"
+msgstr ""
+
+#: admin/admin.php:63
+msgid "General"
+msgstr ""
+
+#: admin/admin.php:73
+msgid "Settings Saved"
+msgstr ""
+
+#: admin/admin.php:374
+msgid "Blood Request Form Page Settings"
+msgstr ""
+
+#: admin/admin.php:426 admin/admin.php:511
+msgid "Select Page"
+msgstr ""
+
+#: admin/admin.php:441
+msgid "Default page name post request"
+msgstr ""
+
+#: admin/admin.php:526
+msgid "Default page name request"
+msgstr ""
+
+#: inc/helper-functions.php:128
+msgid "Settings"
+msgstr ""
+
+#. Widget name will appear in UI
+#: inc/widget-blood-requiest.php:31
+msgid "Blood Request Widget"
+msgstr ""
+
+#: inc/widget-blood-requiest.php:34
+msgid "Add blood request widget."
+msgstr ""
+
+#: inc/widget-blood-requiest.php:77
+msgid "Blood Group: "
+msgstr ""
+
+#: inc/widget-blood-requiest.php:83
+msgid "Date: "
+msgstr ""
+
+#: inc/widget-blood-requiest.php:126
+msgid "Title:"
+msgstr ""
+
+#: inc/widget-blood-requiest.php:131
+msgid "Show  Blood Request Number:"
+msgstr ""
+
+#: templates/blood-request.php:77
+msgid "Unit/Bag (S): "
+msgstr ""
+
+#: templates/blood-request.php:89 templates/post-blood-request.php:172
+#: templates/post-blood-request.php:173 inc/meta-fields/tatcmf-config.php:89
+msgid "Details"
+msgstr ""
+
+#: templates/post-blood-request.php:32
+msgid "Submit Your Request"
+msgstr ""
+
+#: templates/post-blood-request.php:38
+msgid "Please fill the following information to post your blood request."
+msgstr ""
+
+#: templates/post-blood-request.php:45
+msgid "Post Request"
+msgstr ""
+
+#: templates/post-blood-request.php:110 templates/post-blood-request.php:111
+msgid "Title"
+msgstr ""
+
+#: templates/post-blood-request.php:114 templates/post-blood-request.php:115
+#: templates/single-blood_request.php:51 inc/meta-fields/tatcmf-config.php:44
+msgid "Patient Name"
+msgstr ""
+
+#: templates/post-blood-request.php:118 templates/single-blood_request.php:61
+msgid "Blood Group"
+msgstr ""
+
+#: templates/post-blood-request.php:120
+msgid "-----Select-----"
+msgstr ""
+
+#: templates/post-blood-request.php:140 templates/post-blood-request.php:141
+#: templates/single-blood_request.php:56 inc/meta-fields/tatcmf-config.php:54
+msgid "Patient Age"
+msgstr ""
+
+#: templates/post-blood-request.php:144 templates/post-blood-request.php:145
+#: templates/single-blood_request.php:66
+msgid "When Need Blood ?"
+msgstr ""
+
+#: templates/post-blood-request.php:150 templates/single-blood_request.php:71
+msgid "Blood Unit / Bag (S)"
+msgstr ""
+
+#: templates/post-blood-request.php:151 inc/meta-fields/tatcmf-config.php:64
+msgid "Blood Units"
+msgstr ""
+
+#: templates/post-blood-request.php:154 templates/post-blood-request.php:155
+#: templates/single-blood_request.php:76 inc/meta-fields/tatcmf-config.php:84
+msgid "Purpose"
+msgstr ""
+
+#: templates/post-blood-request.php:158 templates/post-blood-request.php:159
+#: templates/single-blood_request.php:81 inc/meta-fields/tatcmf-config.php:69
+msgid "Mobile Number"
+msgstr ""
+
+#: templates/post-blood-request.php:162 templates/post-blood-request.php:163
+#: templates/single-blood_request.php:91 inc/meta-fields/tatcmf-config.php:74
+msgid "Hospital Name"
+msgstr ""
+
+#: templates/post-blood-request.php:166 templates/post-blood-request.php:167
+#: templates/single-blood_request.php:96 inc/meta-fields/tatcmf-config.php:79
+msgid "Location"
+msgstr ""
+
+#: templates/single-blood_request.php:86
+msgid "Email"
+msgstr ""
+
+#: inc/meta-fields/tatcmf-config.php:49
+msgid "Patient Blood Group"
+msgstr ""
+
+#: inc/meta-fields/tatcmf-config.php:59
+msgid "When Need Blood"
+msgstr ""
+
+#. Name of the plugin
+msgid "IDonate - blood request management system WordPress plugin"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"IDonate blood request management system WordPress plugin. Easy to use, easy "
+"to customize."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themeatelier.net/plugins/idonate/"
+msgstr ""
+
+#. Author of the plugin
+msgid "ThemeAtelier"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themeatelier.net/"
+msgstr ""

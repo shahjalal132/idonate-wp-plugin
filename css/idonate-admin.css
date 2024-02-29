@@ -1,0 +1,395 @@
+/**
+ * iDonate 
+ * Admin Css
+ */
+.admin-idonate h2 {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 30px 8px;
+	display: inline-block;
+}
+.admin-donor-add {
+	margin-bottom: 30px;
+}
+.id-admin-divider {
+	position: relative;
+	background: #ef1414;
+	display: inline-block;
+	padding: 4px 10px;
+	font-weight: bold;
+	color: #fff;
+}
+.id-admin-divider:after{
+	content: "";
+	width: 60px;
+	height: 2px;
+	background: #ef1414;
+	position: absolute;
+	top: 50%;
+	right: -22%;
+}
+.id-admin-divider:before {
+	content: "";
+	width: 61px;
+	height: 2px;
+	background: #ef1414;
+	position: absolute;
+	top: 50%;
+	left: -23%;
+}
+ul.settings-menu li {
+	display: inline-block;
+	margin: 0px 10px;
+}
+ul.settings-menu li a {
+	background-color: #ef1414;
+	padding: 6px 10px;
+	font-size: 14px;
+	display: block;
+	text-decoration:none;
+	font-weight: bold;
+	color: #ffffff;
+	border-radius: 3px;
+}
+ul.settings-menu li a:hover {
+	background-color: #af111c;
+}
+.plug-info {
+	position: relative;
+	margin-bottom: 25px;
+}
+.ad-img {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.ad-img a {
+	display: inline-block;
+	margin: 0px 8px;
+}
+.idonate-info {
+    display: inline-block;
+    background-color: #d1ecf1;
+    border: 1px solid #bee5eb;
+    padding: 4px;
+	border-radius: 2px;
+}
+/**
+ * DataTables 
+ */ 
+.donor-panel {
+	padding-right:18px;
+	padding-top: 35px;
+}
+.dataTable td a.btn-primary {
+	margin-right: 10px;
+}
+.dataTable thead {
+	background-color: #d8d8d8;
+}
+table.dataTable.no-footer {
+	padding-top: 20px;
+}
+
+/*----------------------------------------------
+Add New Donor Form
+------------------------------------------------*/
+
+#donorProfile,
+#abc {
+	width:100%;
+	height:100%;
+	opacity:.95;
+	top:0;
+	left:0;
+	display:none;
+	position:fixed;
+	background-color:#313131;
+	overflow:auto;
+	z-index: 1;
+}
+
+.dp-row {
+	overflow: hidden;
+	margin-bottom: 18px;
+}
+.dp-col-12,
+.dp-col-6 {
+	padding: 0px 15px;
+}
+.dp-col-6 {
+	float: left;
+	width: 50%;
+}
+#donorPanelForm .close {
+    position: absolute;
+    right: -18px;
+    top: -17px;
+    cursor: pointer;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+    background-color: #af111c;
+    padding: 8px 11px;
+    border-radius: 50%;
+}
+#donorPanelForm {
+	position:absolute;
+	left:42%;
+	top:8%;
+	margin-left:-202px;
+}
+#donorPanelForm label{
+	display: block;
+	font-weight: bold;
+}
+.donorinfo,
+.donor-panel form {
+	padding:10px 50px;
+	background-color:#ffffff;
+}
+.contentapp{
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    min-width: 300px;
+    background-color: #fff;
+    overflow: hidden;
+    padding: 15px;
+	border-radius: 4px;
+}
+hr {
+	margin:10px -50px;
+	border:0;
+	border-top:1px solid #ccc;
+	margin-bottom: 35px;
+}
+
+input[type=text] {
+	padding:5px 10px;
+	border:1px solid #ccc;
+	font-size:16px;
+}
+.dp-row input,
+.dp-row select{
+	padding: 6px;
+	height: auto;
+	border-radius: 0px;
+	width: 100%;
+}
+.select-opt {
+	background-color: #CECDCA;
+}
+#donorPanelForm .submit {
+	text-decoration:none;
+	width:100%;
+	text-align:center;
+	display:block;
+	background-color: #af111c;
+	color:#fff;
+	border:1px solid #af111c;
+	padding:10px 0;
+	font-size:20px;
+	cursor:pointer;
+	border-radius:5px
+}
+.donor-panel .btn-primary {
+	background-color: transparent;
+	border-color: #af111c;
+	border-radius: 3px;	
+}
+
+.donor-delete .btn-primary,
+.admin-donor-add #popup{
+	background-color: #af111c;
+    height: 45px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0px 16px;
+    border: none;
+    box-shadow: 0px 1px 3px 1px #eee;
+}
+.donor-panel .btn-primary:hover,
+.donor-delete .btn-primary.focus, 
+.donor-delete .btn-primary:focus,
+.donor-panel .btn-primary:active:hover,
+.donor-delete .btn-primary:active:hover,
+.donor-delete .btn-primary.active,
+.donor-delete .btn-primary:active,
+.donor-delete .btn-primary:hover {
+	background-color: #af111c;
+	border-color: #af111c;
+	color: #fff !important;
+}
+
+.idonate-alert-success,
+.idonate-alert-error{
+	padding: 18px 25px 10px 25px;
+	margin-bottom: 30px;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+	font-weight: 600;
+}
+.idonate-alert-error {
+	background-color: #e52d2d;
+}
+.idonate-alert-success {
+	background-color: #46b450;
+}
+.idonate-alert-error p,
+.idonate-alert-success p{
+    color: #fff;
+}
+.donor-delete h2 {
+	margin-bottom: 15px;
+}
+.donor-delete .btn-primary {
+    padding: 6px 16px;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 14px;
+}
+.donor-delete{
+	margin-top: 15%;
+}
+.donor-view-wrapper {
+	width: 100%;
+	min-width: 500px;
+	text-align: center;
+	padding: 15px 0px;
+	
+}
+.donor-view-wrapper .dp-row {
+    border-bottom: 1px solid #dedcdc;
+}
+.donor-view-wrapper .donor-img {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+	margin-bottom: 40px;
+    margin-top: 25px;
+}
+.donor-view-wrapper .donor-img img {
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+}
+.contentapp .donor-view-inner h3 {
+    margin-bottom: 32px;
+}
+.contentapp h3 {
+	margin-bottom: 16px;
+}
+.donor-panel .admin-donor-add h3 {
+	margin-top: 12px;
+    margin-bottom: 23px;
+}
+.upload-preview{
+  margin-top: 10px;
+  max-width:180px;
+}
+input[type=file]{
+	padding:10px;
+	background:#2d2d2d;
+}
+/**
+ *
+ * Loader
+ *
+ */
+.loaderwrapper{
+	background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+ }
+.loader {
+  position: absolute;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-bottom: 16px solid blue;
+  width: 70px;
+  height: 70px;
+  right: 50%;
+  top: 40%;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+ 
+/**
+ *
+ * Responsive query
+ *
+ */
+@media only screen and (max-width: 1024px) {
+	.ad-img {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.ad-img a {
+		display: block;
+		margin: 8px 8px;
+	}
+}
+@media only screen and (max-width: 782px) {
+	.ad-img {
+		position: relative;
+		top: 0;
+		right: 0;
+	}
+	.ad-img a {
+		display: inline-block;
+		margin: 0px 8px;
+	}
+	.id-admin-divider {
+		display: block;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 453px) {
+	.ad-img img {
+		width: 100px;
+		height: 100px;
+	}
+	.ad-img a {
+		margin: 0px 8px;
+	}
+}
+
+span.show-shortcode {
+    background-color: #ef1414;
+    color: #fff;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.shortcode-modual {
+	display: none;
+    background-color: #f5f5f5;
+    padding: 28px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+.idonate-admin-radio label{
+	margin-right: 8px;
+}
+.idonate-admin-radio .single-radio{
+	margin-right: 12px;
+	display: inline-block;
+}

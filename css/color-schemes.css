@@ -1,0 +1,8 @@
+/**
+ * IDonate Color Schemes
+ * 
+ */ 
+	.request-form #donorPanelForm label,
+	.idonate-login label {
+		color: #333333;
+	}
