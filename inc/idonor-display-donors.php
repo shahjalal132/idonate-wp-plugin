@@ -286,7 +286,7 @@ function display_donors_shortcode_callback() {
                                 <p><i class="fa fa-object-group"></i>
                                     <?php echo get_user_meta( $user->ID, 'idonate_donor_bloodgroup', true ); ?>
                                 </p>
-                                <p><i class="fa fa-universal-access"></i><span class="<?php echo esc_attr( $abclass ); ?>">
+                                <p><i class="fa fa-universal-access"></i><span class="ms-5px <?php echo esc_attr( $abclass ); ?>">
                                         <?php echo esc_html( $av ) . wp_kses_post( $signal ); ?>
                                     </span></p>
                                 <p><i class="fa fa-map-marker"></i>
