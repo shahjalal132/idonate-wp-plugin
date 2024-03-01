@@ -200,7 +200,7 @@ function display_donors_shortcode_callback() {
 
                     ?>
                     
-                    <div class="col-sm-4">
+                    <div class="jalal">
                         <div class="donor-item">
 
                             <div class="donors-img">

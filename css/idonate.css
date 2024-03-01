@@ -854,16 +854,9 @@ table.dataTable.no-footer {
 
 
 /* jalal custom codes */
-.donor-info{
-  border: 1px solid magenta !important;
-  padding: 10px !important;
-  display: inline-block;
-}
 
-.donor-profile-picture{
-  max-width: 100px !important;
+.jalal {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
-
-/* .ms-5px{
-  margin-left: 5px !important;
-} */
