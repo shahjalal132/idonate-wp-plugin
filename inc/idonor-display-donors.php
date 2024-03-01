@@ -34,6 +34,15 @@ function display_donors_shortcode_callback() {
 
         <!-- Output donor information -->
         <div class="donor-info">
+
+            <?php
+            $image_id  = get_user_meta( $user->ID, 'idonate_donor_profilepic', true ) ?? 0;
+            $image_url = wp_get_attachment_url( $image_id ) ?? '';
+            ?>
+
+            <img id="donor-profile-picture" src="<?php if ( !is_wp_error( $image_url ) )
+                echo $image_url; ?>" alt="picture">
+
             <h4>Serial:
                 <?php echo esc_html( $i ); ?>
             </h4>

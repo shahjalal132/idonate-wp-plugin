@@ -859,3 +859,7 @@ table.dataTable.no-footer {
   padding: 10px !important;
   display: inline-block;
 }
+
+#donor-profile-picture{
+  max-width: 100px !important;
+}
