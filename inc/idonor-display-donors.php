@@ -278,9 +278,9 @@ function display_donors_shortcode_callback() {
                                     echo plugin_dir_url( __DIR__ ) . 'img/donorplaceholder.jpeg' ?>" />
                                 <?php endif; ?>
                             </div>
-                            
+
                             <div class="donors-info">
-                                <p><i class="fa fa-user"></i>
+                                <p><i class="fa-solid fa-user"></i>
                                     <?php echo get_user_meta( $user->ID, 'idonate_donor_full_name', true ); ?>
                                 </p>
                                 <p><i class="fa fa-object-group"></i>
