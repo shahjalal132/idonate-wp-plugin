@@ -40,7 +40,7 @@ function display_donors_shortcode_callback() {
             $image_url = wp_get_attachment_url( $image_id ) ?? '';
             ?>
 
-            <img id="donor-profile-picture" src="<?php if ( !is_wp_error( $image_url ) )
+            <img class="donor-profile-picture" src="<?php if ( !is_wp_error( $image_url ) )
                 echo $image_url; ?>" alt="picture">
 
             <h4>Serial:
