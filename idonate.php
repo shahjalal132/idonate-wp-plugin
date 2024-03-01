@@ -121,3 +121,4 @@ register_deactivation_hook(__FILE__, 'idonate_deactivation_activate');
 
 // require display donors file
 require_once IDONATE_DIR_PATH . 'inc/idonor-display-donors.php';
+require_once IDONATE_DIR_PATH . 'inc/class-enqueue-asstes.php';
