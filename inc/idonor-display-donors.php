@@ -164,7 +164,7 @@ function display_donors_shortcode_callback() {
             $args  = array(
                 'role'       => 'donor',
                 'meta_key'   => 'idonate_donor_status',
-                'meta_value' => '1',
+                // 'meta_value' => '1',
                 'meta_query' => $metaquery,
                 'order'      => 'ASC',
                 'offset'     => $paged ? ( $paged - 1 ) * $number : 0,
@@ -192,10 +192,10 @@ function display_donors_shortcode_callback() {
 
                     if ( 'available' == $av ) {
                         $abclass = 'available';
-                        $signal  = '<i class="fa fa-check"></i>';
+                        $signal  = '<i class="fa-solid fa-check"></i>';
                     } else {
                         $abclass = 'unavailable';
-                        $signal  = '<i class="fa fa-times"></i>';
+                        $signal  = '<i class="fa-regular fa-circle-xmark"></i>';
                     }
 
                     ?>
@@ -224,10 +224,10 @@ function display_donors_shortcode_callback() {
                                 <p><i class="fa fa-universal-access"></i><span class="ms-5px <?php echo esc_attr( $abclass ); ?>">
                                         <?php echo esc_html( $av ) . wp_kses_post( $signal ); ?>
                                     </span></p>
-                                <p><i class="fa fa-map-marker"></i>
+                                <p><i class="fa-solid fa-location-dot"></i>
                                     <?php echo esc_html( get_user_meta( $user->ID, 'idonate_donor_city', true ) ); ?>
                                 </p>
-                                <p><i class="fa fa-mobile"></i>
+                                <p><i class="fa-solid fa-phone"></i>
                                     <?php echo get_user_meta( $user->ID, 'idonate_donor_mobile', true ); ?>
                                 </p>
                                 <!-- Button trigger modal -->
